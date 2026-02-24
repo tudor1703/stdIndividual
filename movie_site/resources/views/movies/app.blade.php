@@ -26,12 +26,10 @@
 <body class="d-flex flex-column h-100">
 <nav class="navbar navbar-dark bg-dark shadow-sm mb-4 sticky-top">
     <div class="container d-flex justify-content-between align-items-center">
-        <!-- Logo / Brand -->
         <a class="navbar-brand fw-bold fs-4" href="{{ route('movies.index') }}">
             🎬 Movie Hub
         </a>
 
-        <!-- Linkurile din navbar (mereu orizontale) -->
         <ul class="navbar-nav d-flex flex-row">
             <li class="nav-item me-3">
                 <a class="nav-link text-white" href="{{ route('movies.index') }}">Home</a>
@@ -60,7 +58,6 @@
     <div class="container">
         <div class="row">
 
-            <!-- Despre site -->
             <div class="col-md-4 mb-3 mb-md-0">
                 <h5 class="fw-bold">Movie Hub</h5>
                 <p class="small">
@@ -68,7 +65,6 @@
                 </p>
             </div>
 
-            <!-- Linkuri rapide -->
             <div class="col-md-4 mb-3 mb-md-0">
                 <h5 class="fw-bold">Quick Links</h5>
                 <ul class="list-unstyled">
@@ -79,7 +75,6 @@
                 </ul>
             </div>
 
-            <!-- Social media -->
             <div class="col-md-4">
                 <h5 class="fw-bold">Follow Us</h5>
                 <a href="https://facebook.com/YourPage" target="_blank" class="text-white me-3 fs-5">
